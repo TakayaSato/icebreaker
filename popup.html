@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>アイスブレイク質問集</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>アイスブレイク質問集</h2>
+
+      <button id="randomBtn">質問を表示</button>
+
+      <input
+        type="text"
+        id="newQuestion"
+        placeholder="新しい質問を追加（Enterでも追加可能）"
+      />
+      <button id="addButton">質問を追加</button>
+    </div>
+
+    <!-- カスタムモーダル -->
+    <div id="overlay" class="overlay">
+      <div class="modal">
+        <div class="modal-content"></div>
+        <button id="closeModalBtn">閉じる</button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

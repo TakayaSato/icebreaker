@@ -1,0 +1,87 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px; /* 安全なサイズ */
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #5a99d4; /* 落ち着いた青系に変更 */
+    color: white;
+    border-radius: 6px;
+  }
+  
+  button:hover {
+    background-color: #3c89e1;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  /* モーダル用スタイル */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: #fff;
+    width: 800px; /* モーダル幅を800pxに */
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .modal-content {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #closeModalBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5a99d4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  #closeModalBtn:hover {
+    background-color: #3c89e1;
+  }
+  
